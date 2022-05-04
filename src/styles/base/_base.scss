@@ -1,0 +1,62 @@
+body{
+    font-style: Helvetica,Arial,sans-serif;
+    height:100%;
+}
+
+button {
+    cursor:pointer;
+}
+
+.App{
+    padding: 5%;
+    text-align: center;
+}
+.party-pooper{
+    width:200px;
+    height:200px;
+
+}
+.noPage{
+    text-align: center;
+}
+
+.center {
+    text-align:center;
+}
+.fade{
+    animation-name: fade-in;
+    animation-duration: 2s;
+}
+
+.MuiTableCell-paddingNone {
+    padding: 0px 10px !important;
+}
+
+.MuiTableContainer-root {
+    margin: 20px 0px !important;  
+}
+
+.MuiTableSortLabel-root {
+    flex-direction: row  !important;
+}
+
+.MuiAppBar-colorPrimary {
+    background:#ff941c !important;
+    // height: 53px;
+}
+
+.text-caps{
+    text-transform: capitalize;
+}
+    
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+@keyframes fade-in{
+    from {opacity: 0;}
+    to {opacity: 100;}
+}
